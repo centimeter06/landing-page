@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+
 .container1 {
     background: #1F2937;
     font-family: Roboto, sans-serif;
@@ -78,12 +79,127 @@ button {
     font-size: 16px;
 }
 
-.img {
-    width:480px;
-    height:270px;
+.container2 {
+    background: #FFFFFF;
+    font-family: Roboto, sans-serif;
+    padding: 48px;
 }
 
-.container2 {
+.text2{
+    font-size: 36px;
+    font-weight: bolder;
+    padding-top: 12px;
+    padding-bottom:55px;
     display: flex;
-    flex:auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.body2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
+}
+
+.subtext2 {
+    width: 150px;
+    text-align: center;
+    padding-bottom:75px;
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.shapes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 10px;
+}
+
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: #FFFFFF;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+}
+
+.container3 {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote  {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
+    color: #1F2937;
+    width: 790px;
+    padding-top:150px;
+}
+
+.author {
+    text-align: right;
+    width:710px;
+    font-size: 24px;
+    font-weight: bolder;
+    padding-bottom:100px;
+}
+
+.container4 {
+    background:#FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:128px;
+}
+
+.box {
+    background-color: #3882f6;
+    width: 1100px;
+    height:165px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left2 {
+    color:#F9FAF8;
+}
+
+.text3 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.subtext3 {
+    font-weight: 300px;
+    font-size: 18px;
+}
+
+.right {
+    border: 2px solid #FFFFFF;
+    border-radius:12px;
+    text-decoration: none;
+    display: block;
+}
+
+.footer {
+    background: #1F2937;
+}
+
+.footer #copyright {
+    color:#F9FAF8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    font-size:18px;
 }
